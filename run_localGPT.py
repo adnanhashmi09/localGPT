@@ -192,8 +192,8 @@ def main(device_type, show_sources):
     # load the LLM for generating Natural Language responses
 
     # for HF models
-    model_id = "TheBloke/wizard-vicuna-13B-GGML"
-    model_basename = "wizard-vicuna-13B.ggmlv3.q4_0.bin"
+    model_id = "TheBloke/Nous-Hermes-13B-GPTQ"
+    model_basename = "nous-hermes-13b-GPTQ-4bit-128g.no-act.order"
     
     # model_id = "TheBloke/Wizard-Vicuna-7B-Uncensored-HF"
     # model_id = "TheBloke/guanaco-7B-HF"
