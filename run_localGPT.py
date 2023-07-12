@@ -192,8 +192,9 @@ def main(device_type, show_sources):
     # load the LLM for generating Natural Language responses
 
     # for HF models
-    model_id = "TheBloke/vicuna-7B-1.1-HF"
-    model_basename = None
+    model_id = "TheBloke/wizard-vicuna-13B-GGML"
+    model_basename = "wizard-vicuna-13B.ggmlv3.q4_0.bin"
+    
     # model_id = "TheBloke/Wizard-Vicuna-7B-Uncensored-HF"
     # model_id = "TheBloke/guanaco-7B-HF"
     # model_id = 'NousResearch/Nous-Hermes-13b' # Requires ~ 23GB VRAM. Using STransformers
